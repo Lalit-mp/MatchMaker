@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="index.js" defer></script> -->
+     <script src="app.js" defer></script>
+    <title>Match-Maker</title>
+</head>
+
+<body>
+
+    <body>
+        <main>
+            <!-- --------------------------------Login----------------- -->
+            <div class="container login">
+                <nav>Match-Maker</nav>
+                <div class="form-holder">
+                    <form action="#">
+                        <div class="input-ctn">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="userName" required> <br>
+                        </div>
+                        <div class="input-ctn">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required><br>
+                        </div>
+                        <div class="input-ctn">
+                            <label for="dob">Date of Birth:</label>
+                            <input type="date" id="dob" name="Date of Birth" required><br>
+                        </div>
+                        <div class="input-ctn">
+                            <label for="gender">Gender:</label>
+                            <select name="gender" id="gender" name="gender" required>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Others">Others</option>
+                            </select>
+                        </div>
+                        <div class="input-ctn">
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" required><br>
+                        </div>
+                        <input type="submit" value="Sign-up">
+                    </form>
+                </div>
+            </div>
+
+            <!-- --------------------------select-gender------------------ -->
+            <div class="slection-ctn container hide select-gender">
+                <nav>Match-Maker</nav>
+                <div class="select-gender">
+                    <div class="select-gender-ctn">
+                        <p>Are you looking for:</p>
+                        <div class="g-list-ctn">
+                        <div class="gender-list">
+                            <button>Men</button>
+                            <button>Women</button>
+                            <button>All</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- --------------------main-page------------ -->
+            <div class="container main-page hide">
+                <nav>Match-Maker</nav>
+                <div class="profile-holder card-in">
+                    <div class="profile ">
+                        <!-- <img src="https://cdn.pixabay.com/photo/2022/04/06/11/30/girl-7115394_640.jpg" alt=""> -->
+                        <img src="" alt="">
+                        <div class="text">
+                            <h2 class="name"></h2>
+                            <p class="dob"></p>
+                            <p class="city"></p>
+                            <!-- <h2 class="name">Name is</h2>
+                            <p class="dob">Date of birth</p>
+                            <p class="city">city</p> -->
+                        </div>
+                    </div>
+                    <span class="loader"></span>
+                </div>
+                <div class="btn-holder">
+                    <div class="buttons">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                    </div>
+                </div>
+                
+
+            </div>
+            
+            
+            
+        </main>
+
+    </body>
+
+</body>
+
+</html>
