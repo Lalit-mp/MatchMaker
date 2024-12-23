@@ -339,3 +339,12 @@ button:hover{
     background-position: 215px 0, 25px 25px, 25px 270px, 25px 300px;
   }
 }
+
+
+
+
+
+@media only screen and (max-with: 500px){
+.container {
+    width: 95vw;
+}
