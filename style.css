@@ -50,12 +50,13 @@ nav{
     justify-content: center;
     align-items: flex-start;
     height: 80%;
+    width: 95%;
 
 }
 .profile{
     /* background-color: red; */
     height: 77%;
-    width: 80%;
+    width: 100%;
     /* border: 2px solid black; */
     border-radius: 10px;
     
