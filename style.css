@@ -7,6 +7,7 @@
 }
 main{
     height: 95vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -349,6 +350,25 @@ button:hover{
 .container {
     width: 95vw;
     height: 90vh;
+}
+    .profile-holder{
+    height: 90%;
+    width: 96%;
+
+}
+.profile{
+   height: 90%;
+    width: 96%;
+    
+}
+.profile img{
+    height: 70%;
+    width: 96%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.text{
+    height: 25%;
 }
 .fa-thumbs-up:hover{
     color: rgb(255, 255, 255);
